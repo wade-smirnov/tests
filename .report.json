@@ -1,7 +1,7 @@
 {
-    "created": 1667835390.7770987,
-    "duration": 3.732818365097046,
-    "exitcode": 0,
+    "created": 1667844215.715473,
+    "duration": 45.44263219833374,
+    "exitcode": 2,
     "root": "D:\\test_assignment\\tests",
     "environment": {
         "Python": "3.11.0",
@@ -17,9 +17,9 @@
         }
     },
     "summary": {
-        "passed": 2,
-        "total": 2,
-        "collected": 2
+        "passed": 23,
+        "total": 23,
+        "collected": 34
     },
     "collectors": [
         {
@@ -44,6 +44,106 @@
                     "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-high-circle]",
                     "type": "Function",
                     "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-low-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-normal-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-normal-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-high-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-low-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-low-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-normal-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-high-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-torus]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-uv_sphere]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-circle]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-torus]",
+                    "type": "Function",
+                    "lineno": 217
                 }
             ]
         },
@@ -53,6 +153,66 @@
             "result": [
                 {
                     "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-640x480]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-uv_sphere-10x10]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-uv_sphere-1000x10000]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-1920x1080]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-640x480]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-torus-1920x1080]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-640x480]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-10x10]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-torus-1000x10000]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-1920x1080]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-640x480]",
                     "type": "Function",
                     "lineno": 217
                 }
@@ -75,15 +235,660 @@
                 "tests"
             ],
             "setup": {
-                "duration": 0.000506300013512373,
+                "duration": 0.00046360003761947155,
                 "outcome": "passed"
             },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:50",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
             "call": {
-                "duration": 1.9559416000265628,
+                "duration": 1.8916470999829471,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.00033900002017617226,
+                "duration": 0.0002614001277834177,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-low-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-low-low-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-low-low-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0002794000320136547,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:52",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.952185200061649,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00023550004698336124,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-normal-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-normal-normal-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-normal-normal-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0002663000486791134,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:54",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9048472000285983,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0002297998871654272,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-normal-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-low-normal-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-low-normal-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00022160005755722523,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:56",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.8719246999826282,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00020919996313750744,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-high-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-normal-high-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-normal-high-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0002796000335365534,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:57",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.011799299856648,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00022959988564252853,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-low-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-high-low-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-high-low-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00022709998302161694,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:02:59",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9748362000100315,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00037240004166960716,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-normal-low-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-normal-low-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-normal-low-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0003347999881953001,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:01",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9494231001008302,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00020859995856881142,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-normal-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-high-normal-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-high-normal-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00031729997135698795,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:03",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9154127999208868,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0003010001964867115,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-low-high-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-low-high-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-low-high-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00028760009445250034,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:05",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9173828999046236,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00021549989469349384,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[sun-random-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "sun-random-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00022859987802803516,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:07",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9953711000271142,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0002063000574707985,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[sun-random-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "sun-random-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0002864000853151083,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:09",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.942854599794373,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0002164000179618597,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[sun-random-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[sun-random-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "sun-random-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00026950007304549217,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:11",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.0201256999280304,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00021219998598098755,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[point-random-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "point-random-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.000220100162550807,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:13",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9280316000804305,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00031839986331760883,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[point-random-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "point-random-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0002924001310020685,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:15",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.0427367000374943,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00022900011390447617,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[point-random-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[point-random-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "point-random-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00022869999520480633,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:17",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.0022718000691384,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00021690013818442822,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[spot-random-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "spot-random-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00020679994486272335,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:19",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.401346400147304,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00019699987024068832,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[spot-random-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "spot-random-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00021249987185001373,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:22",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9910474000498652,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00019890000112354755,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[spot-random-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[spot-random-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "spot-random-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00021460000425577164,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:24",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9225141999777406,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0002522000577300787,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-uv_sphere]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[area-random-uv_sphere]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "area-random-uv_sphere",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0003400000277906656,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:25",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9620026999618858,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00045579997822642326,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[area-random-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "area-random-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00023850006982684135,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:27",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 1.9780027999076992,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00019400008022785187,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_different_lightning[area-random-torus]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_different_lightning[area-random-torus]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "area-random-torus",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00020499993115663528,
+                "outcome": "passed"
+            },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:29",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
+            "call": {
+                "duration": 2.082973000127822,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00022529996931552887,
                 "outcome": "passed"
             }
         },
@@ -102,15 +907,39 @@
                 "tests"
             ],
             "setup": {
-                "duration": 0.0002703999634832144,
+                "duration": 0.00023630005307495594,
                 "outcome": "passed"
             },
+            "metadata": {
+                "date and time": "07/11/2022 21:03:32",
+                "processor info": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+                "machine": "AMD64"
+            },
             "call": {
-                "duration": 1.73690259992145,
+                "duration": 1.7569419001229107,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.00023819995112717152,
+                "duration": 0.00019729998894035816,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "normal-circle-10x10",
+                "source/test_object_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00020730006508529186,
                 "outcome": "passed"
             }
         }
