@@ -10,7 +10,7 @@ To set up this project on your local machine:
 
 ## Running Tests
 1. Run tests using `pipenv run python -m pytest -v -s`
-2. Add pretty printed report using `pipenv run python -m pytest -v -s --json-report --json-report-indent=4`
+2. Add pretty report using `pipenv run python -m pytest -v -s --json-report --json-report-indent=4`
 
-## information
+## Information
 You can specify Blender installation and output folders in `config.py` 
