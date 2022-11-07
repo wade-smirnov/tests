@@ -8,4 +8,13 @@ Feature: Check simple material rendering
     Examples:
         | color  | metal    |specular |mesh         |
         | random | high		|high	  |circle   	|
+        | random | low	 	|low	  |torus		|
+        | random | normal	|normal   |uv_sphere	|
+        | random | low	 	|normal   |circle		|
+        | random | normal	|high	  |torus		|
+        | random | high		|low	  |uv_sphere	|
+        | random | normal	|low	  |circle		|
+        | random | high     |normal   |torus		|
+        | random | low	 	|high	  |uv_sphere	|
+        
 

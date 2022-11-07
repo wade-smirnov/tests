@@ -8,7 +8,7 @@ bpy.ops.mesh.edge_face_add()
 object = bpy.context.object
 material = bpy.data.materials.new('Test')
 object.data.materials.append(material)
-bpy.context.object.active_material.diffuse_color = (0.97849,0.46806,0.95017, 1)
-bpy.context.object.active_material.metallic = 0.91247
-bpy.context.object.active_material.specular_intensity = 0.8371
+bpy.context.object.active_material.diffuse_color = (0.23514,0.59146,0.62389, 1)
+bpy.context.object.active_material.metallic = 0.91329
+bpy.context.object.active_material.specular_intensity = 0.91072
 bpy.ops.wm.quit_blender()

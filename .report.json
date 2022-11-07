@@ -1,6 +1,6 @@
 {
-    "created": 1667815982.8653266,
-    "duration": 39.105509519577026,
+    "created": 1667835390.7770987,
+    "duration": 3.732818365097046,
     "exitcode": 0,
     "root": "D:\\test_assignment\\tests",
     "environment": {
@@ -17,9 +17,9 @@
         }
     },
     "summary": {
-        "passed": 13,
-        "total": 13,
-        "collected": 13
+        "passed": 2,
+        "total": 2,
+        "collected": 2
     },
     "collectors": [
         {
@@ -27,8 +27,23 @@
             "outcome": "passed",
             "result": [
                 {
+                    "nodeid": "source/test_material_render.py",
+                    "type": "Module"
+                },
+                {
                     "nodeid": "source/test_object_render.py",
                     "type": "Module"
+                }
+            ]
+        },
+        {
+            "nodeid": "source/test_material_render.py",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-high-circle]",
+                    "type": "Function",
+                    "lineno": 217
                 }
             ]
         },
@@ -40,71 +55,38 @@
                     "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-640x480]",
                     "type": "Function",
                     "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-uv_sphere-10x10]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-uv_sphere-1000x10000]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-1920x1080]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-640x480]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-torus-1920x1080]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-640x480]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-10x10]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-torus-1000x10000]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-1920x1080]",
-                    "type": "Function",
-                    "lineno": 217
-                },
-                {
-                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-640x480]",
-                    "type": "Function",
-                    "lineno": 217
                 }
             ]
         }
     ],
     "tests": [
+        {
+            "nodeid": "source/test_material_render.py::test_render_test_of_simple_material[random-high-high-circle]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_simple_material[random-high-high-circle]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "random-high-high-circle",
+                "source/test_material_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.000506300013512373,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 1.9559416000265628,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.00033900002017617226,
+                "outcome": "passed"
+            }
+        },
         {
             "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-640x480]",
             "lineno": 217,
@@ -120,339 +102,15 @@
                 "tests"
             ],
             "setup": {
-                "duration": 0.001226099906489253,
+                "duration": 0.0002703999634832144,
                 "outcome": "passed"
             },
             "call": {
-                "duration": 2.209406499983743,
+                "duration": 1.73690259992145,
                 "outcome": "passed"
             },
             "teardown": {
-                "duration": 0.0003329000901430845,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[normal-circle-10x10]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "normal-circle-10x10",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.00034200004301965237,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.224382999818772,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0005047998856753111,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "huge-circle-1000x10000",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.00036090007051825523,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 4.358538700034842,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00036729988642036915,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-uv_sphere-10x10]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[small-uv_sphere-10x10]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "small-uv_sphere-10x10",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.00047760014422237873,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.527892400044948,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0005846000276505947,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-uv_sphere-1000x10000]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[normal-uv_sphere-1000x10000]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "normal-uv_sphere-1000x10000",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0004700000863522291,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 4.477958400035277,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00028789998032152653,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-1920x1080]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[huge-uv_sphere-1920x1080]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "huge-uv_sphere-1920x1080",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0002476000227034092,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 3.215286700055003,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0002330997958779335,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-uv_sphere-640x480]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[huge-uv_sphere-640x480]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "huge-uv_sphere-640x480",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0003559000324457884,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.8395648000296205,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0003704000264406204,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-torus-1920x1080]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[normal-torus-1920x1080]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "normal-torus-1920x1080",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0003885999321937561,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.830080899875611,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00030399998649954796,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-640x480]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[huge-torus-640x480]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "huge-torus-640x480",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0004521000664681196,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.551584400003776,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0002171001397073269,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-torus-10x10]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[huge-torus-10x10]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "huge-torus-10x10",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.000323600135743618,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.3985674001742154,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00021039997227489948,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-torus-1000x10000]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[small-torus-1000x10000]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "small-torus-1000x10000",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0002568000927567482,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 4.243195399874821,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.0002148000057786703,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-1920x1080]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[small-circle-1920x1080]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "small-circle-1920x1080",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.00025580008514225483,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.7968534000683576,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00033180019818246365,
-                "outcome": "passed"
-            }
-        },
-        {
-            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-640x480]",
-            "lineno": 217,
-            "outcome": "passed",
-            "keywords": [
-                "test_render_test_of_an_arbitrary_object[normal-circle-640x480]",
-                "usefixtures",
-                "parametrize",
-                "pytestmark",
-                "__scenario__",
-                "normal-circle-640x480",
-                "source/test_object_render.py",
-                "tests"
-            ],
-            "setup": {
-                "duration": 0.0002598001156002283,
-                "outcome": "passed"
-            },
-            "call": {
-                "duration": 2.3734228000976145,
-                "outcome": "passed"
-            },
-            "teardown": {
-                "duration": 0.00022200006060302258,
+                "duration": 0.00023819995112717152,
                 "outcome": "passed"
             }
         }
