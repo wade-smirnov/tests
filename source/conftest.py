@@ -3,6 +3,6 @@ import os
 import config
 
 #Shared steps
-@given('Blender with empty world is prepared')
+@given('Blender is installed and prepared')
 def check_blender():
     assert os.path.exists(config.blender_path)

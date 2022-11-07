@@ -1,7 +1,7 @@
 Feature: Check simple object rendering
 
     Scenario Outline: Render test of an arbitrary object
-        Given Blender with empty world is prepared
+        Given Blender is installed and prepared
         When <size> <mesh> is added to the scene
         Then it can be rendered in <resolution>
 
@@ -20,6 +20,7 @@ Feature: Check simple object rendering
         |small  |torus	  |1000x10000 |
         |small  |circle   |1920x1080  |
         |normal |circle   |640x480 	  |
+
 
 
 
