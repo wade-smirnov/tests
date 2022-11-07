@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pytest-bdd = "*"
 pytest-json-report = "*"
+wheel = "*"
 
 [dev-packages]
 

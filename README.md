@@ -1,5 +1,5 @@
 ## Setup
-This project uses version of Python 3.10.*
+This project uses version of Python 3.11.*
 It also uses [pipenv](https://pipenv.readthedocs.io/) to manage packages.
 
 To set up this project on your local machine:
