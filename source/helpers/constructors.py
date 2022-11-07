@@ -48,7 +48,7 @@ class Code_constructor:
                 return f"bpy.context.object.active_material.diffuse_color = {Generator.random_color()}\n"
 
     @staticmethod
-    def set_metal(metal):
+    def set_metal(metal='normal'):
         match metal:
             case 'high':
                 return f"bpy.context.object.active_material.metallic = {round(random.uniform(0.9, 1),5)}\n"
@@ -58,7 +58,7 @@ class Code_constructor:
                 return f"bpy.context.object.active_material.metallic = {round(random.uniform(0.45, 0.55),5)}\n"
     
     @staticmethod
-    def set_specular(specular):
+    def set_specular(specular='normal'):
         match specular:
             case 'high':
                 return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0.8, 1),5)}\n"
@@ -66,11 +66,26 @@ class Code_constructor:
                 return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0, 0.5),5)}\n"
             case _:
                 return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0.45, 0.55),5)}\n\n"
-        
     
     @staticmethod
     def adjust_material(color, metal, specular):
         return Code_constructor.set_color(color) + Code_constructor.set_metal(metal) + Code_constructor.set_specular(specular)
+
+    @staticmethod
+    def delete_light():
+        return "bpy.ops.object.select_all(action='DESELECT')\nbpy.data.objects['Light'].select_set(True)\nbpy.ops.object.delete(use_global=False)\n\n"
+
+    @staticmethod
+    def set_light(light):
+        match light:
+            case 'sun':
+                return f"bpy.ops.object.light_add(type='SUN', radius=1, align='WORLD', location={Generator.random_location()}, scale=(1, 1, 1))\n"
+            case 'spot':
+                return f"bpy.ops.object.light_add(type='SPOT', align='WORLD', location=(0, -0, {round(random.uniform(5, 30),5)}), scale=(1, 1, 1))\n"
+            case 'area':
+                return f"bpy.ops.object.light_add(type='AREA', align='WORLD', location=(0, -0, {round(random.uniform(5, 30),5)}), scale=(1, 1, 1))\n"
+            case _:
+                return f"bpy.ops.object.light_add(type='POINT', radius=1, align='WORLD', location={Generator.random_location()}, scale=(1, 1, 1))\n"
 
 
 
