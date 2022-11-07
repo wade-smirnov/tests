@@ -2,6 +2,7 @@ from helpers.constructors import Code_constructor
 from pytest_bdd import scenarios, parsers, given, when, then
 from lib.interfaces import EXTRA_TYPES
 import subprocess
+import time
 import config
 
 scenarios('../features/object_render.feature')
@@ -25,4 +26,4 @@ def render_check(resolution):
     f.write(script_code)
     f.close()
 
-    subprocess.run([config.blender_path,  "--log", "'*'", "--log-file", config.log_output_folder,"-P", r"./scripts/blender_script.py", "-o", config.render_output_folder, "--render-frame","1","kostil_exit_error_generator"], shell=True)
+    subprocess.run([config.blender_path,  "--log", "'*'", "--log-file", config.log_output_folder+rf"{time.time()}.txt","-P", r"./scripts/blender_script.py", "-o", config.render_output_folder+fr"{time.time()}", "--render-frame","1","kostil_exit_error_generator"], shell=True)
