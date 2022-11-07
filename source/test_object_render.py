@@ -28,4 +28,4 @@ def render_check(resolution):
     f.write(script_code)
     f.close()
 
-    subprocess.run([config.blender_path,  "--log", "'*'", "--log-file", config.log_output_folder+rf"{time.time()}.txt","-P", r"./scripts/blender_script_object.py", "-o", config.render_output_folder+fr"object_{time.time()}", "--render-frame","1","kostil_exit_error_generator"], shell=True)
+    subprocess.run([config.blender_path,'-b',  "--log", "*", "--log-file", config.log_output_folder+rf"{time.time()}.txt","-P", r"./scripts/blender_script_object.py", "-o", config.render_output_folder+fr"object_{time.time()}", "--render-frame","1"], shell=True)
