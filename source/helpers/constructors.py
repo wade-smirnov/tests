@@ -1,4 +1,5 @@
 from helpers.generators import Generator
+import random
 
 class Code_constructor:
     @staticmethod
@@ -33,8 +34,43 @@ class Code_constructor:
     @staticmethod
     def close_blender():
         return 'bpy.ops.wm.quit_blender()'
-    
 
+    @staticmethod
+    def create_material():
+        return "object = bpy.context.object\nmaterial = bpy.data.materials.new('Test')\nobject.data.materials.append(material)\n"
+
+    @staticmethod
+    def set_color(color='random'):
+        match color:
+            case 'green':
+                return "bpy.context.object.active_material.diffuse_color = (0, 1, 0, 1)\n"
+            case _:
+                return f"bpy.context.object.active_material.diffuse_color = {Generator.random_color()}\n"
+
+    @staticmethod
+    def set_metal(metal):
+        match metal:
+            case 'high':
+                return f"bpy.context.object.active_material.metallic = {round(random.uniform(0.9, 1),5)}\n"
+            case 'low':
+                return f"bpy.context.object.active_material.metallic = {round(random.uniform(0, 0.5),5)}\n"
+            case _:
+                return f"bpy.context.object.active_material.metallic = {round(random.uniform(0.45, 0.55),5)}\n"
+    
+    @staticmethod
+    def set_specular(specular):
+        match specular:
+            case 'high':
+                return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0.8, 1),5)}\n"
+            case 'low':
+                return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0, 0.5),5)}\n"
+            case _:
+                return f"bpy.context.object.active_material.specular_intensity = {round(random.uniform(0.45, 0.55),5)}\n\n"
+        
+    
+    @staticmethod
+    def adjust_material(color, metal, specular):
+        return Code_constructor.set_color(color) + Code_constructor.set_metal(metal) + Code_constructor.set_specular(specular)
 
 
 

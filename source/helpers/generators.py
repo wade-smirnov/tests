@@ -43,4 +43,10 @@ class Generator:
         for i in range(3):
             scale.append(round(random.uniform(0.1, 100),5))
         return f"({scale[0]},{scale[1]},{scale[2]})"
-    
+
+    @staticmethod
+    def random_color():
+        color = []
+        for i in range(3):
+            color.append(round(random.uniform(0.1, 1),5))
+        return f"({color[0]},{color[1]},{color[2]}, 1)"
