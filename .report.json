@@ -1,0 +1,140 @@
+{
+    "created": 1667814474.322696,
+    "duration": 8.779366970062256,
+    "exitcode": 0,
+    "root": "D:\\test_assignment\\tests",
+    "environment": {
+        "Python": "3.11.0",
+        "Platform": "Windows-10-10.0.19044-SP0",
+        "Packages": {
+            "pytest": "7.2.0",
+            "pluggy": "1.0.0"
+        },
+        "Plugins": {
+            "bdd": "6.1.0",
+            "json-report": "1.5.0",
+            "metadata": "2.0.4"
+        }
+    },
+    "summary": {
+        "passed": 3,
+        "total": 3,
+        "collected": 3
+    },
+    "collectors": [
+        {
+            "nodeid": "",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "source/test_object_render.py",
+                    "type": "Module"
+                }
+            ]
+        },
+        {
+            "nodeid": "source/test_object_render.py",
+            "outcome": "passed",
+            "result": [
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-640x480]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-5x5]",
+                    "type": "Function",
+                    "lineno": 217
+                },
+                {
+                    "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
+                    "type": "Function",
+                    "lineno": 217
+                }
+            ]
+        }
+    ],
+    "tests": [
+        {
+            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[small-circle-640x480]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_an_arbitrary_object[small-circle-640x480]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "small-circle-640x480",
+                "source/test_object_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00028900010511279106,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 2.2404310000129044,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0004032999277114868,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[normal-circle-5x5]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_an_arbitrary_object[normal-circle-5x5]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "normal-circle-5x5",
+                "source/test_object_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.0004695998504757881,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 2.2796410999726504,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0008847999852150679,
+                "outcome": "passed"
+            }
+        },
+        {
+            "nodeid": "source/test_object_render.py::test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
+            "lineno": 217,
+            "outcome": "passed",
+            "keywords": [
+                "test_render_test_of_an_arbitrary_object[huge-circle-1000x10000]",
+                "usefixtures",
+                "parametrize",
+                "pytestmark",
+                "__scenario__",
+                "huge-circle-1000x10000",
+                "source/test_object_render.py",
+                "tests"
+            ],
+            "setup": {
+                "duration": 0.00042789988219738007,
+                "outcome": "passed"
+            },
+            "call": {
+                "duration": 4.220801000017673,
+                "outcome": "passed"
+            },
+            "teardown": {
+                "duration": 0.0001946000847965479,
+                "outcome": "passed"
+            }
+        }
+    ]
+}
