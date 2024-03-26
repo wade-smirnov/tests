@@ -14,3 +14,5 @@ To set up this project on your local machine:
 
 ## Information
 You can specify Blender installation and output folders in `config.py` 
+
+## Prep for Pereocenka
